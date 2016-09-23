@@ -5,10 +5,10 @@
 - `HTML Repeater`는 HTML 코드에서, 배열에 담겨있는 여러 객체들의 값을 각각 나타내야 할 때, 일일이 객체의수만큼 HTML 코드를 짜지 않아도 되게 해줍니다.
 
 ## 사용 예
-Inline-style:
+index.html 코드:
 ![alt text](http://res.cloudinary.com/dxmiqvbcr/image/upload/v1474589966/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2016-09-23_09.17.32_n0199x.png "HTML Screen")
 
-Inline-style:
+index.html 화면:
 ![alt text](http://res.cloudinary.com/dxmiqvbcr/image/upload/v1474589966/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2016-09-23_09.18.52_acgkbr.png "indexhtml Screen")
 ## 사용법
 ```
@@ -34,6 +34,13 @@ var animals = [
 
 `{{ }}` 기호 안에 {{ 객체.프로퍼티 }} 이런 식으로 접근 할 수 있습니다.
 
+```
+<ul repeater="item in animals">
+    <li>이름 : {{item.name}}</li>
+    <li>나이 : {{item.age}}</li>
+    <li>{{item.name}}은(는) '{{item.sound}}' 소리를 냅니다.</li>
+</ul>
+```
 위의 코드를 예로 보면,
 
 부모노드의 innerHTML(부모노드 태그의 내용부분)에 해당 객체를 'item' 이라는 이름으로 가리킬 수 있습니다.  
