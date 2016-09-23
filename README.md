@@ -4,6 +4,12 @@
 - `HTML Repeater`는 Angular.js의 `ng-repeat`에서 영감을 얻어서, 스스로 제작해 본 코드입니다.
 - `HTML Repeater`는 HTML 코드에서, 배열에 담겨있는 여러 객체들의 값을 각각 나타내야 할 때, 일일이 객체의수만큼 HTML 코드를 짜지 않아도 되게 해줍니다.
 
+## 사용 예
+Inline-style:
+![alt text](http://res.cloudinary.com/dxmiqvbcr/image/upload/v1474589966/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2016-09-23_09.17.32_n0199x.png "HTML Screen")
+
+Inline-style:
+![alt text](http://res.cloudinary.com/dxmiqvbcr/image/upload/v1474589966/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2016-09-23_09.18.52_acgkbr.png "indexhtml Screen")
 ## 사용법
 ```
 var animals = [
